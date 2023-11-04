@@ -76,8 +76,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/AsuranMoviefinder"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/JAsuranbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/Quality_LinksZ"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/Quality_LinksZ")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -335,7 +335,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/JAsuran/PyroFilesStoreBot")
+                                             url="https://t.me/Quality_LinksZ")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -352,8 +352,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/AsuranMoviefinder"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/JAsuranbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/Quality_LinksZ"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/Quality_LinksZ")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -373,7 +373,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/AsuranMoviefinder).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Quality_LinksZ).",
                         disable_web_page_preview=True
                     )
                     return
@@ -396,7 +396,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/AsuranMoviefinder).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/Quality_LinksZ).",
                     disable_web_page_preview=True
                 )
                 return
@@ -406,8 +406,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/AsuranMoviefinder"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/JAsuranbots")
+                        InlineKeyboardButton("Support Group", url="https://t.me/Quality_LinksZ"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/Quality_LinksZ")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
