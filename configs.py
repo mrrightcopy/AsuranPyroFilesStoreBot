@@ -6,7 +6,7 @@ import os
 class Config(object):
 	API_ID = 1923471
 	API_HASH = "fcdc178451cd234e63faefd38895c991"
-	BOT_TOKEN = "5961170420:AAEC8tsWFZp88LpbTMOe7pqS-HqUbh_MvC0"
+	BOT_TOKEN = "6898447547:AAGhJsfZlRdzJwn9_G7UOubEtBiBhN6wzfI"
 	BOT_USERNAME = "QL_Movie_Links_Bot"
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002087036746"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1109543851"))
