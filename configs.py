@@ -7,12 +7,12 @@ class Config(object):
 	API_ID = 1923471
 	API_HASH = "fcdc178451cd234e63faefd38895c991"
 	BOT_TOKEN = "5961170420:AAEC8tsWFZp88LpbTMOe7pqS-HqUbh_MvC0"
-	BOT_USERNAME = "asumoviessharebot"
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001814192750"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "880087645"))
+	BOT_USERNAME = "QL_Movie_Links_Bot"
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002087036746"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1109543851"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://leecher:leecher@cluster0.606mkpi.mongodb.net/?retryWrites=true&w=majority")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "bioscopegroup")
-	LOG_CHANNEL = "-1001814192750"
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+	LOG_CHANNEL = "-1002087036746"
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -35,10 +35,10 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 👥 **Support Group:** [Catchme](https://t.me/jasuranbots)
 
-📢 **Updates Channel:** [JAsuran Serials](https://t.me/JAsuranserials)
+📢 **Updates Channel:** [JAsuran Serials](https://t.me/Quality_LinksZ)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @JAsuran2p0
+🧑🏻‍💻 **Developer:** 
 
 Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 
