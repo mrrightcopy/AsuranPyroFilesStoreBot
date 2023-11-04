@@ -29,13 +29,9 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
 
-📡 **Hosted on:** [Render](https://render.com)
+👥 **Support Group:** [Catchme](https://t.me/Quality_LinksZ)
 
-🧑🏻‍💻 **Developer:** @JAsuran2p0
-
-👥 **Support Group:** [Catchme](https://t.me/jasuranbots)
-
-📢 **Updates Channel:** [JAsuran Serials](https://t.me/Quality_LinksZ)
+📢 **Updates Channel:** [Quality LinkS](https://t.me/Quality_LinksZ)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** 
